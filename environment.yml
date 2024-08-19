@@ -1,0 +1,19 @@
+name: fastpython311
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - numpy
+  - scipy
+  - iminuit
+  - tensorflow>=2.2
+  - tensorflow-probability
+  - jax
+  - matplotlib
+  - numba
+  - pip
+  - tqdm
+  - uv
+  - cuda-nvcc
+  - cupy
