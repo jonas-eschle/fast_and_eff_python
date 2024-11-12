@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v5.0.0
     hooks:
       - id: check-added-large-files
         args: [ '--maxkb=1000' ]
@@ -15,7 +15,7 @@ repos:
   # Notebook formatting
 # if uncommented, this will format notebooks but since it's a tutorial, we may _want_ sometimes "bad" code
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.8.7
+    rev: 1.9.1
     hooks:
       - id: nbqa-pyupgrade
         additional_dependencies: [ pyupgrade ]
@@ -23,7 +23,7 @@ repos:
 
   #
   - repo: https://github.com/kynan/nbstripout
-    rev: 0.7.1
+    rev: 0.8.0
     hooks:
       - id: nbstripout
 
